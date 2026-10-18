@@ -1,3 +1,6 @@
+Github repo - https://github.com/Swayamgoyal/RAG_LMA
+Everything (code, outputs and the report) is in RAG_Baseline_vs_ReRanking.ipynb
+
 # RAG: Baseline Retrieval vs. Cross-Encoder Re-Ranking
 
 Two RAG pipelines are compared over the same chunked corpus, the **IFAB Laws of the Game 2026/27** (260-page football rulebook):
@@ -6,7 +9,6 @@ Two RAG pipelines are compared over the same chunked corpus, the **IFAB Laws of 
 - **Pipeline 2 (re-ranking):** the same Top 10 → `cross-encoder/ms-marco-MiniLM-L-6-v2` → re-sorted Top 3 → LLM (identical prompt)
 - **LLM:** `qwen2.5:7b`, run locally through Ollama
 
-Everything (code, outputs and the report) is in **[RAG_Baseline_vs_ReRanking.ipynb](RAG_Baseline_vs_ReRanking.ipynb)**.
 
 ## Repository layout
 

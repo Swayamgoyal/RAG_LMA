@@ -1,0 +1,14 @@
+# local archive (never pushed)
+old_files/
+
+# environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# source PDF (23 MB, IFAB copyright) - the notebook downloads it automatically
+data/*.pdf
+
+# model / embedding caches
+*.npy
+.cache/

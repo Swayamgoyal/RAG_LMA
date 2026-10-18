@@ -1,0 +1,8 @@
+,mean (ms),median (ms),p95 (ms)
+Pipeline 1 retrieval (embed query + FAISS Top 10),10.0,9.4,13.9
+Cross-encoder re-rank of 10 pairs (GPU),64.4,61.9,95.8
+Cross-encoder re-rank of 10 pairs (CPU),125.0,122.8,158.9
+Pipeline 2 retrieval total (GPU re-rank),74.4,71.6,108.2
+Pipeline 2 retrieval total (CPU re-rank),134.9,133.0,170.1
+"LLM generation, Pipeline 1 (qwen2.5:7b)",1623.2,1703.7,2536.0
+"LLM generation, Pipeline 2 (qwen2.5:7b)",1769.1,1886.8,2108.2

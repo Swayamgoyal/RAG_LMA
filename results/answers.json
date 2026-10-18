@@ -1,0 +1,170 @@
+[
+  {
+    "category": "Keyword trap / synonym",
+    "query": "Can a player use their body to protect the ball from an opponent?",
+    "gold_chunk": 187,
+    "baseline_rank": 10,
+    "reranked_rank": 1,
+    "answer_1": "According to Law 12 [1], a player can use their body to protect the ball from an opponent as long as it does not constitute playing in a dangerous manner or impeding the progress of an opponent without contact. The law allows actions like scissors or bicycle kicks if they are not dangerous to an opponent, implying that using one's body to shield the ball is generally permissible [1].",
+    "answer_2": "Yes, a player may shield the ball by taking a position between an opponent and the ball if the ball is within playing distance and the opponent is not held off with the arms or body [1]. This action allows the player to impede the progress of an opponent without contact, provided the ball is within reach [1].",
+    "ctx_1": [
+      186,
+      181,
+      392
+    ],
+    "ctx_2": [
+      187,
+      351,
+      182
+    ],
+    "t_llm_1": 2.238041600001452,
+    "t_llm_2": 2.018112600002496
+  },
+  {
+    "category": "Keyword trap / synonym",
+    "query": "What happens if a player fakes an injury to fool the referee?",
+    "gold_chunk": 195,
+    "baseline_rank": 4,
+    "reranked_rank": 1,
+    "answer_1": "The provided context does not answer this question.",
+    "answer_2": "A player who attempts to deceive the referee by feigning injury or pretending to have been fouled (simulation) must be cautioned for unsporting behavior [1]. This is one of the circumstances under which a player must receive a caution for unsporting behavior as outlined in the provided context.",
+    "ctx_1": [
+      121,
+      189,
+      325
+    ],
+    "ctx_2": [
+      195,
+      121,
+      325
+    ],
+    "t_llm_1": 0.6235154000023613,
+    "t_llm_2": 1.8252346000008401
+  },
+  {
+    "category": "Exception / corner case",
+    "query": "Can a substituted player come back on later in the game?",
+    "gold_chunk": 45,
+    "baseline_rank": 7,
+    "reranked_rank": 3,
+    "answer_1": "Yes, a substituted player can return to play later in the game if they are used as a 'return substitute', which is allowed under specific circumstances [2]. However, all other provisions of Law 3 and the Laws of the Game apply to return substitutes, meaning the substitution procedure must still be followed [2][3].",
+    "answer_2": "Yes, a substituted player can return to play later in the game under specific conditions [1]. This is referred to as a 'return substitute' and must follow the substitution procedure outlined in Law 3 [2]. The use of return substitutions is permitted in youth, veterans, disability, and grassroots football with the approval of the relevant governing body [3].",
+    "ctx_1": [
+      88,
+      46,
+      87
+    ],
+    "ctx_2": [
+      46,
+      88,
+      45
+    ],
+    "t_llm_1": 1.825498799997149,
+    "t_llm_2": 1.9484194000033312
+  },
+  {
+    "category": "Negation / role limit",
+    "query": "Who is not permitted to approach the referee to discuss decisions?",
+    "gold_chunk": 29,
+    "baseline_rank": 5,
+    "reranked_rank": 3,
+    "answer_1": "Players other than the captain may be cautioned if they approach or surround the referee when not permitted to do so [1]. The referee has discretion over interactions with players other than the captain, such as when a player has committed an offence, been fouled, or is injured [1].",
+    "answer_2": "Players other than the designated captain are not permitted to approach the referee when they are not allowed to do so [1]. The referee may instruct players not to approach them and may delay the restart of play to allow the captain(s) time to speak with their team-mates [2]. Players who approach or surround the referee without permission may be cautioned (yellow card) [1].",
+    "ctx_1": [
+      32,
+      132,
+      265
+    ],
+    "ctx_2": [
+      31,
+      32,
+      30
+    ],
+    "t_llm_1": 1.683806499997445,
+    "t_llm_2": 2.156699099999969
+  },
+  {
+    "category": "Negation / constraint",
+    "query": "Is a player in an offside position penalised if they do not touch the ball?",
+    "gold_chunk": 169,
+    "baseline_rank": 6,
+    "reranked_rank": 3,
+    "answer_1": "An attacker in an offside position (A), not interfering with an opponent, does not touch the ball and cannot be penalised [1]. Therefore, if a player is in an offside position but does not interfere with play or touch the ball, they are not penalised for being offside.",
+    "answer_2": "According to [1], a player in an offside position who does not interfere with play by touching the ball cannot be penalised for being offside. Similarly, [2] indicates that a player in an offside position is not penalised if they do not gain an advantage from their position, specifically mentioning that the player did not touch the ball.",
+    "ctx_1": [
+      392,
+      176,
+      173
+    ],
+    "ctx_2": [
+      392,
+      397,
+      169
+    ],
+    "t_llm_1": 1.7234996000042884,
+    "t_llm_2": 1.985817799999495
+  },
+  {
+    "category": "Document-specific: stale (struck-through) text",
+    "query": "Are players allowed to wear rings or earrings during a match?",
+    "gold_chunk": 100,
+    "baseline_rank": 2,
+    "reranked_rank": 2,
+    "answer_1": "According to the context provided [1], rings and earrings fall under the category of jewellery which is forbidden, and must be removed by players before starting the match. These items are considered dangerous if not removed and are not permitted even when covered with tape [1].",
+    "answer_2": "According to the amended text [1], all items of jewellery such as rings and earrings are forbidden and must be removed before the start of the match, as they are considered dangerous equipment. The use of 'jewellery' is noted to potentially include items that do not constitute traditional jewellery but still need to be removed due to safety concerns.",
+    "ctx_1": [
+      294,
+      100,
+      128
+    ],
+    "ctx_2": [
+      294,
+      100,
+      131
+    ],
+    "t_llm_1": 1.5386866999979247,
+    "t_llm_2": 1.8061773000008543
+  },
+  {
+    "category": "Recall ceiling (gold outside Top 10)",
+    "query": "Can a player who has been sent off stay in the technical area?",
+    "gold_chunk": 201,
+    "baseline_rank": ">10 (#67)",
+    "reranked_rank": "not in candidates",
+    "answer_1": "The provided context does not answer this question.",
+    "answer_2": "The provided context does not answer this question.",
+    "ctx_1": [
+      119,
+      299,
+      300
+    ],
+    "ctx_2": [
+      41,
+      118,
+      93
+    ],
+    "t_llm_1": 0.6564664000034099,
+    "t_llm_2": 0.6510199999975157
+  },
+  {
+    "category": "Re-ranker demotes the right chunk",
+    "query": "If the ball bounces off the referee and goes into the net, does the goal count?",
+    "gold_chunk": 156,
+    "baseline_rank": 3,
+    "reranked_rank": 4,
+    "answer_1": "According to Law 9 - The Ball in and out of Play [3], if the ball touches a match official (the referee) and remains on the field of play, it is considered out of play under certain conditions. However, since the ball went into the net after bouncing off the referee, this situation does not fall under the specific scenarios where play would be restarted with a dropped ball [3]. Therefore, based on the provided context, the goal likely counts as the ball has entered the goal under these circumstances.",
+    "answer_2": "According to Law 2 of the Laws of the Game [3], if the ball becomes defective and rebounds from an outside agent (such as the referee) into the goal, play is restarted with a dropped ball at the position where it touched the outside agent. Therefore, in this scenario, the goal does not count [2].",
+    "ctx_1": [
+      158,
+      154,
+      156
+    ],
+    "ctx_2": [
+      158,
+      231,
+      79
+    ],
+    "t_llm_1": 2.696392099998775,
+    "t_llm_2": 1.7615331999986665
+  }
+]

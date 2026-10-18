@@ -1,0 +1,41 @@
+category,query,baseline_rank,reranked_rank,outcome
+keyword,Are players allowed to wear rings or earrings during a match?,2.0,2.0,unchanged
+keyword,What happens if the keeper holds onto the ball for too long?,,,gold outside Top 10 (unrecoverable)
+keyword,"If the ball bounces off the referee and goes into the net, does the goal count?",3.0,4.0,broken by re-ranking
+keyword,Can a goal be scored straight from a throw-in?,1.0,1.0,unchanged
+keyword,Can the goalkeeper score by throwing the ball into the other team's net?,2.0,1.0,improved (same side of cut-off)
+keyword,Is it offside if a player gets the ball straight from a corner?,1.0,1.0,unchanged
+keyword,What happens if an indirect free kick goes straight into the net?,,,gold outside Top 10 (unrecoverable)
+keyword,Is a goal allowed if a player accidentally scores with their arm?,1.0,1.0,unchanged
+keyword,Can the goalkeeper be tackled while holding the ball?,3.0,1.0,improved (same side of cut-off)
+keyword,Is a bicycle kick allowed?,1.0,1.0,unchanged
+keyword,Can a defender block an attacker's run when the ball is far away?,2.0,3.0,worse (same side of cut-off)
+keyword,Can a player use their body to protect the ball from an opponent?,10.0,1.0,fixed by re-ranking
+keyword,"If a player loses a boot and scores before putting it back on, does the goal stand?",,,gold outside Top 10 (unrecoverable)
+keyword,Can a goalkeeper wear long trousers?,1.0,1.0,unchanged
+keyword,Do players have to wear shin pads?,2.0,1.0,improved (same side of cut-off)
+keyword,Can a coach give tactical instructions to players through an earpiece?,2.0,1.0,improved (same side of cut-off)
+keyword,Is a goal awarded if a dog runs onto the pitch and the ball goes in?,,,gold outside Top 10 (unrecoverable)
+keyword,What happens if a player fakes an injury to fool the referee?,4.0,1.0,fixed by re-ranking
+keyword,Does the ball have to completely cross the line for a goal?,1.0,1.0,unchanged
+keyword,Who gets punished if the referee cannot identify which coach misbehaved?,,,gold outside Top 10 (unrecoverable)
+exception,Does an injured player always have to leave the field after being treated?,1.0,1.0,unchanged
+exception,Is an injured player allowed to stay on the pitch if the opponent got a yellow card for the foul?,,,gold outside Top 10 (unrecoverable)
+exception,Can a player who is sent off be replaced by a substitute?,1.0,1.0,unchanged
+exception,Can a goal be scored directly from a kick-off into the kicker's own goal?,2.0,1.0,improved (same side of cut-off)
+exception,Can a goal be scored directly from a dropped ball?,2.0,7.0,broken by re-ranking
+exception,Can a goalkeeper pick up the ball when a teammate passes it back with their foot?,8.0,4.0,improved (same side of cut-off)
+exception,Can the referee change a decision after play has restarted?,3.0,3.0,unchanged
+exception,Can a substituted player come back on later in the game?,7.0,3.0,fixed by re-ranking
+exception,Can a player be sent off before the game has even started?,,,gold outside Top 10 (unrecoverable)
+negation,Is leaving the pitch to celebrate a goal a yellow card offence?,4.0,2.0,fixed by re-ranking
+negation,Which players are not allowed to take kicks in a penalty shoot-out?,,,gold outside Top 10 (unrecoverable)
+negation,Can the match continue if one team is down to six players?,1.0,1.0,unchanged
+negation,Is a player in an offside position penalised if they do not touch the ball?,6.0,3.0,fixed by re-ranking
+negation,Who is not permitted to approach the referee to discuss decisions?,5.0,3.0,fixed by re-ranking
+negation,Is every touch of the ball with the arm a handball?,1.0,1.0,unchanged
+negation,Can a player who has been sent off stay in the technical area?,,,gold outside Top 10 (unrecoverable)
+negation,Does the ball not need to be still when a free kick is taken?,5.0,4.0,improved (same side of cut-off)
+other,How long is a sin bin temporary dismissal?,5.0,3.0,fixed by re-ranking
+other,What restart is given if the penalty taker touches the ball twice?,,,gold outside Top 10 (unrecoverable)
+other,How far must opponents be from the ball at a corner kick?,5.0,2.0,fixed by re-ranking

@@ -1,0 +1,14 @@
+# Python 3.14. For GPU, install torch from the CUDA index first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu126
+torch==2.14.1
+sentence-transformers==6.1.0
+transformers==5.20.1
+faiss-cpu==1.15.1
+pymupdf==1.28.2
+ollama==0.6.3
+numpy==2.5.4
+pandas==3.0.6
+matplotlib==3.11.2
+jupyter==1.1.1
+ipykernel==7.4.0
+nbconvert==7.17.2

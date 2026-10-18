@@ -1,0 +1,9 @@
+category,query,gold_chunk,baseline_rank,reranked_rank
+Keyword trap / synonym,Can a player use their body to protect the ball from an opponent?,187,10,1
+Keyword trap / synonym,What happens if a player fakes an injury to fool the referee?,195,4,1
+Exception / corner case,Can a substituted player come back on later in the game?,45,7,3
+Negation / role limit,Who is not permitted to approach the referee to discuss decisions?,29,5,3
+Negation / constraint,Is a player in an offside position penalised if they do not touch the ball?,169,6,3
+Document-specific: stale (struck-through) text,Are players allowed to wear rings or earrings during a match?,100,2,2
+Recall ceiling (gold outside Top 10),Can a player who has been sent off stay in the technical area?,201,>10 (#67),not in candidates
+Re-ranker demotes the right chunk,"If the ball bounces off the referee and goes into the net, does the goal count?",156,3,4
